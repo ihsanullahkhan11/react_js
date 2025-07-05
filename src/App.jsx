@@ -1,35 +1,19 @@
 
 import './App.css'
 
-// function App() {
-  
-//   return (
-//     <>
- 
-//     <h1>ihsan ullah khan</h1>
-//     </>
-//   )
-// }
-// export default function Galler() {
-// return(
-//   <>
-//   <App/>
-//   <App/>
-//   <App/>
 
-//   </>
-// )
+import StudentInfo from './components/Student';
 
-// }
-   import HtmlToJsx from './components/html_to_jsx'
- function App(){
-    return(
-      <>
-      
-      <HtmlToJsx/>
-      </>
-    )
-  }
+function App() {
+  return (
+    <div>
+      <h1>Student Information</h1>
+      <StudentInfo name="Ihsan Ullah" age="18" className="12th"  image="https://lnk.ink/xmods"/>
+      <StudentInfo name="Abid Ullah khan" age="17" className="11th" image="https://lnk.ink/xmods" />
+      <StudentInfo name="Aziz Ullah khan" age="16" className="10th" image="https://lnk.ink/xmods"/>
+    </div>
+  );
+}
+
 
 export default App;
-
